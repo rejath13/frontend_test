@@ -15,7 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+ 
   build:
     runs-on: demorunner
     steps:
@@ -24,9 +24,12 @@ jobs:
 
     - name: Build with Docker
       run: docker build -t react_github:v1 .
+      
   run:
     runs-on: demorunner
+    needs: build
     steps:
-    - name: Run react container
-      run: docker run -d --name admin_front_container -p 8000:80 react_github:v1
+       - name: Run react container
+         run: docker run -d --name admin_front_container -p 8000:80 react_github:v1
+      
 
