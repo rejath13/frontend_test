@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: FRONTEND CI
 
 # Controls when the workflow will run
 on:
@@ -22,8 +22,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Install dependencies
-      run: npm install
+    - name: Build with Docker
+      run: docker build -t react_github:v1 .
+  run:
+    runs-on: demorunner
+    steps:
+    - name: Run react container
+      run: docker run -d --name admin_front_container -p 8000:80 react_github:v1
 
-    - name: Build
-      run: npm run build
