@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h2>doing the main branch that is dev</h2>
+      <h2>new featute added to dev branch</h2>
     </>
   )
 }
