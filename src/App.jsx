@@ -16,6 +16,18 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <h2>made changes in test branch</h2>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+       made changes in test branch and commited 
+      </p>
       <h2>doing the main branch that is dev</h2>
       <h2>new featute added to dev branch</h2>
     </>
