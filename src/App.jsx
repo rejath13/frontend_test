@@ -16,13 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <>makeing cchanges on git haaaa</>
-      <>makeing cchanges on git haaaa</>
-      <>makeing cchanges on git haaaa</>
-      <>makeing cchanges on git haaaa</>
-      <>makeing cchanges on git haaaa</>
-      <h1>change made in test branch to file</h1>
-      <h2>made the pipeline ready</h2>
+      <h2>made test app in react</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
