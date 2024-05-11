@@ -28,6 +28,6 @@ jobs:
     needs: build
     steps:
        - name: Run react container
-         run: docker run -d --name admin_front_container -p 8000:80 react_github:v1
+         run: docker run -d --name admin_front_container -p 9000:80 react_github:v1
       
 
