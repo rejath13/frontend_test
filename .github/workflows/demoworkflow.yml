@@ -32,6 +32,7 @@ jobs:
           CONTAINER_ID=$(docker ps -qf "name=admin_react_actions")
           if [ -n "$CONTAINER_ID" ]; then
           docker kill $CONTAINER_ID
+          docker rm $CONTAINER_ID
           fi
       - name: Run react container
         run: docker run -d --name admin_react_actions -p 9000:80 react_github:v1
