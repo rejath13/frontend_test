@@ -1,4 +1,4 @@
-FROM  node:18 as build
+FROM  node:16.15.0 as build
 
 RUN mkdir -p /app/node_modules && chown -R node:node /app
 
@@ -14,7 +14,7 @@ RUN npm run build
 
 FROM nginx:latest
 
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
 
 EXPOSE 80
 
