@@ -1,0 +1,16 @@
+.priority-form {
+  .priority-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .priority-icon {
+    color: red;
+
+    svg {
+      //   width: 18px;
+      //   height: 18px;
+    }
+  }
+}

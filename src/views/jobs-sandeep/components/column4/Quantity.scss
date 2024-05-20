@@ -1,0 +1,14 @@
+.badge-quantity {
+  line-height: 0;
+  span {
+    font-size: 0.7rem;
+  }
+}
+
+.column4 {
+  &__quantity-values {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}

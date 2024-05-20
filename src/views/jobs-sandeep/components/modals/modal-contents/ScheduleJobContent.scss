@@ -1,0 +1,114 @@
+.schedule-job-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .form-row {
+    display: flex;
+    flex-wrap: nowrap;
+    // align-content: stretch;
+    gap: 1rem;
+    // justify-content: space-between;
+    background-color: rgb(236, 236, 236);
+    // align-items: center;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .quantities-row > * {
+    flex: 1;
+  }
+
+  .form-row > * {
+    flex: 1;
+  }
+
+  .admin-comment {
+    flex: 6;
+  }
+
+  .priority-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .form-check-label {
+      position: relative;
+      display: flex;
+      align-items: center;
+      svg {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+
+  .date-btn-row {
+    // gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .btn {
+      padding: 0.1rem 0.5rem;
+    }
+  }
+
+  .date-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 0.05rem;
+    max-width: 2;
+    // background-color: rgb(236, 236, 236);
+    // padding: 0.25rem 0.75rem;
+    border-radius: 5px;
+  }
+  //   .duration-section {
+  //     display: flex;
+  //     flex-direction: column;
+  //     // padding: 0.25rem 0.75rem;
+  //     border-radius: 5px;
+
+  //     // background-color: rgb(236, 236, 236);
+  //     .duration {
+  //       display: flex;
+  //       gap: 1rem;
+  //     }
+  //   }
+
+  .duration-section {
+    flex: 1;
+    display: flex;
+    gap: 0.75rem;
+
+    .duration-hours {
+      width: 100%;
+    }
+    .duration-minutes {
+      width: 100%;
+    }
+  }
+
+  .horizontal-stacked {
+    display: flex;
+    gap: 0.05rem;
+    // width: 8rem;
+    align-items: center;
+  }
+
+  .creatable-select {
+    width: 10rem;
+  }
+  .vertical-stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 0.05rem;
+    // width: 6rem;
+  }
+}

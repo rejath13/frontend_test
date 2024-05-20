@@ -1,0 +1,46 @@
+.schedule-filters {
+  width: 100%;
+  display: flex;
+  // gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+
+  > * {
+    // flex: 1;
+    font-size: 0.75rem;
+  }
+  //   background-color: black;
+
+  .schedule-filters-checkboxes-container {
+    // flex: 1;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .schedule-filter-checkbox-container {
+      width: 80px;
+    }
+  }
+
+  .schedule-filters-datepicker {
+    // flex: 3;
+    display: flex;
+    align-items: center;
+  }
+
+  .schedule-searchbox {
+    // flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .schedule-filters-technician {
+    // flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .schedule-filters-reset-section {
+    // flex: 1;
+    display: flex;
+    align-items: center;
+  }
+}

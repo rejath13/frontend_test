@@ -1,0 +1,127 @@
+.fc-button-primary {
+    background-color: #1a60eb !important;
+    border-color: #1a60eb !important;
+}
+
+
+.fc-timeline-slot-cushion {
+    font-weight: normal !important;
+}
+
+.fc-timeline-event {
+    border-radius: 5px !important;
+    margin-top: 14px !important;
+}
+
+.fc-datagrid-cell-frame {
+    height: auto;
+    background-color: white;
+}
+
+.fc-datagrid-cell-frame .hover-outline-task {
+    margin-bottom: 0 !important;
+}
+
+.fc .fc-datagrid-cell-cushion {
+    padding: 0px !important;
+}
+
+/* tooltip */
+
+.tooltipevent {
+    width: 600px;
+    position: absolute;
+    z-index: 10001;
+    transform: translate3d(-48%, -100%, 0);
+    background-color: transparent;
+}
+
+.tooltForResize{
+    width: auto;
+    z-index: 10001;
+    position: absolute;
+    background-color: #c3d4f6;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.tooltipevent div {
+    padding: 0px 5px;
+    border: none !important;
+}
+
+
+.tooltipevent div:last-child::after,
+.tooltipevent div:last-child::before {
+    width: 0;
+    height: 0;
+    border-bottom: 0;
+    border-top-color: white;
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .tooltipevent div:last-child::before {
+    border-top-color: #888888;
+    bottom: -5px;
+} */
+
+
+th .fc-datagrid-cell-cushion {
+    flex: 1;
+}
+
+.fc .fc-button-primary {
+    font-size: 12px;
+}
+
+.fc-toolbar-title {
+    font-size: 18px !important;
+    margin-block: auto !important
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 9;
+}
+
+.fc-scroller::-webkit-scrollbar-thumb {
+    background: gray !important;
+    border-radius: 10px;
+}
+
+.fc-close-button {
+    background-color: rgb(20, 20, 20) !important;
+    border-color: rgb(20, 20, 20) !important;
+}
+
+.fc-toolbar-chunk {
+    display: flex;
+}
+
+.fc-zoomIn-button, .fc-zoomOut-button{
+    background: #1a60eb !important;
+    border-color: #1a60eb !important;
+    width: 40px;
+}
+.fc-zoomOut-button{
+    margin-left: -3px !important;
+}
+
+
+.fc-datagrid-cell-frame {
+    vertical-align: middle !important;
+    display: table-cell !important;
+    padding: 10px !important;
+    background: none !important;
+    color: black !important;
+    font-weight: bold !important
+    ;
+}

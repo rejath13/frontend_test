@@ -1,0 +1,116 @@
+.tab-content{
+    padding: 6px 15px;
+}
+
+label{
+    font-size: 13px;
+}
+
+.checkbox input[type="checkbox"] + .cr::before {
+    margin-right: 5px;
+}
+
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span{
+    word-wrap: normal;
+}
+
+.sortordercolumn{
+    width: 2%;
+    border-right: none !important;
+}
+
+.ordercolumn{
+    width: 1%;
+    border-left: none !important;
+    padding-left: 0 !important;
+}
+
+.datecolumn{
+    width: 1%;
+}
+
+.acccolumn{
+    width: 1%;
+    border-right: none !important;
+}
+
+.cuname{
+    width: 15%;
+    border-left: none !important;
+}
+
+.cname{
+    width: 15%;
+}
+
+.image{
+    width: 1%;
+}
+
+.quantity{
+    width: 6%;
+}
+
+.check{
+    width: 1%;
+}
+
+.invoice{
+    width: 5%;
+}
+
+.expected{
+    width: 6%;
+}
+
+.status{
+    width: 8%;
+}
+
+.note{
+    width: 16%;
+}
+
+.buttoncolumn{
+    width: 3%;
+}
+
+.move-icon{
+    position: relative;
+    top: -10px;
+}
+
+.move-icon::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+	content: "\f0b2";
+}
+
+
+.font-13{
+    font-size: 13px !important;
+}

@@ -1,0 +1,28 @@
+.schedule-job-info-form {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 1rem;
+  margin-left: auto;
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .stacked {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    font-size: 0.75rem;
+  }
+
+  .company-name {
+    flex: 2;
+  }
+  .heading {
+    font-weight: bold;
+  }
+}

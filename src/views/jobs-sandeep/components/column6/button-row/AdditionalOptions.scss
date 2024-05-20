@@ -1,0 +1,45 @@
+.additional-options {
+  position: relative;
+}
+
+.options-button {
+  background-color: rgb(236, 236, 236);
+
+  svg {
+    color: rgb(123, 123, 123) !important;
+  }
+}
+
+.options-container {
+  position: absolute;
+  right: 0;
+  bottom: 2rem;
+  min-width: 10rem;
+  border-radius: 0.25rem;
+  min-height: 3rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: black;
+
+  ul {
+    width: 100%;
+    list-style: none;
+    padding: 0.5rem;
+
+    li {
+      width: 100%;
+      text-align: center;
+    }
+    li:hover {
+      background-color: lightblue;
+    }
+    li.delete:hover {
+      color: white;
+      background-color: red;
+    }
+
+    li.delete {
+      color: red;
+    }
+  }
+}

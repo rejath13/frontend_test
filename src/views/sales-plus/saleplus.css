@@ -1,0 +1,204 @@
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+.cursor{
+   cursor: pointer;
+}
+
+
+span{
+    word-wrap: normal;
+}
+
+.prioritybuttoncolumn{
+    border-right: none !important;
+}
+
+.namecolumn{
+    width: 18%;
+    border-left: none !important;
+}
+
+.countcolumn{
+    width: 5%;
+}
+
+.expirycolumn{
+    width: 8%;
+}
+
+.duemonthcolumn{
+    width: 4%;
+}
+
+.termcolumn{
+    width: 8%;
+}
+
+.projectcolumn{
+    width: 9%;
+    border-left: none !important;
+}
+.statuscolumn{
+    width: 7%;
+}
+
+
+.actions{
+    width: 11%;
+}
+
+.datecolumn{
+    width: 7%;
+}
+
+.companycolumn{
+    width: 17%;
+}
+
+.salescolumn{
+    width: 10%;
+}
+.leadcolumn{
+    width: 10%;
+}
+.notescolumn{
+    width: 29%;
+}
+.monitoringnotecolumn{
+    width: 21%;
+    border-right: none !important;
+}
+
+.monitoringdatecolumn{
+    width: 9%;
+}
+
+.monitoringbuttoncolumn{
+    width: 1%;
+    border-left: none !important;
+}
+
+.buttoncolumn{
+    width: 1%;
+}
+
+.mon-note-list{
+    height: 35vh;
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus, .btn-warning.focus{
+    color: #fff;
+}
+
+.joborder{
+padding: 2px 5px;
+background: #b31199;
+color: #fff;
+border-radius: 50%;
+}
+
+.technician{
+background-color: #564aa3;
+color: #fff;
+width: 95%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px; 
+}
+.type{
+  background-color: #564aa3;
+color: #fff;
+width: 40%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px;  
+}
+.divcomment{
+    border: 1px solid #cfdadd;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.nc {
+  padding: 5px;
+  background: gray;
+  border-radius: 5px;
+  color: #fff;
+  width: 28px;
+  display: inline-block;
+  text-align: center;
+}
+.accountvehicle{
+   margin-left: 10px; 
+}
+.pointer {cursor: pointer;}
+.top-section
+{
+    margin-bottom: 20px;
+}
+.tab-content
+{
+   /* display: none;*/
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none;
+    color: #111;
+    box-shadow: 0 -2px 10px 0 rgba(4, 169, 245,.3);
+    border: 1px solid #04a9f5;
+      border-bottom-color: rgb(4, 169, 245);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+    border-bottom: navajowhite;
+}
+.actionbuttons
+{
+    margin-right: 3px;
+    padding:0px 4px;
+}
+.remindercol {
+    width: 1%;
+    text-align: center;
+  }
+  .remindercol i{
+      cursor: pointer;
+  }
+  
+#settings-dropdown .dropdown-menu.show::before{
+    right: 15px !important;
+left: unset;
+}

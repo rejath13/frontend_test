@@ -1,0 +1,21 @@
+#timeline-filter-date-picker {
+  .date-btn-row {
+    display: flex;
+    gap: 1rem;
+
+    .direction-buttons {
+      display: flex;
+      gap: 0.25rem;
+    }
+  }
+
+  .btn-next-date,
+  .btn-prev-date {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+  }
+}

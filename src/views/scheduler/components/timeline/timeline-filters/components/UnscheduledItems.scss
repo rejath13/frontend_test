@@ -1,0 +1,27 @@
+#unscheduled-items {
+  margin-left: auto;
+}
+
+#unscheduled-items-modal {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+  .header {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .title {
+    flex: 2;
+  }
+
+  .search-box {
+    flex: 3;
+  }
+
+  .badge-schedules-count {
+    margin-left: 1rem;
+  }
+}

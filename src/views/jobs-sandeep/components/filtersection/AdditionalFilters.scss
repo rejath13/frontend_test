@@ -1,0 +1,47 @@
+.additionalFilters {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  > div {
+    min-width: 20rem;
+    flex: 1;
+    padding: 0.5rem 1.5rem;
+    border: 1px dotted #333;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+
+  &__checkbox-section {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  &__checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.025rem;
+    align-items: center;
+
+    label {
+      font-size: 0.9rem !important;
+      color: #333;
+    }
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

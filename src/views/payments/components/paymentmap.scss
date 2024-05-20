@@ -1,0 +1,27 @@
+#payment-map-big{
+    position: absolute;
+    width: 103%;
+
+    @media (min-width: 1448px){
+        width: 101%;
+    }
+
+    .vehicle-check {
+        position: absolute;
+        right: 3.5rem;
+        top: 0.6rem;
+        width: fit-content;
+        padding: 0 10px;
+        height: 40px;
+        background-color: white;
+        color: rgb(85, 83, 83);
+        font-size: 16px;
+        border-left: 1px solid rgba(212, 210, 210, 0.637);
+        box-shadow:0px 0px 1px rgba(212, 210, 210, 0.637);
+        font-weight: 500;
+      }
+}
+
+#payment-map-small{
+    width: 400px;
+}

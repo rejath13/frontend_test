@@ -1,0 +1,236 @@
+.itc-card .tab-content {
+    padding: 15px !important;
+}
+
+.project-font-title {
+    color: #a3aab5;
+    font-weight: 500;
+    font-size: 12px !important;
+}
+
+.project-font-label {
+    color: #484848;
+    font-size: 14px !important;
+    font-weight: 700;
+}
+
+.chk-font-label {
+    color: #484848;
+    font-size: 12px !important;
+}
+
+.summary-font-label {
+    color: #484848;
+    font-size: 10px !important;
+}
+
+.action-buttons {
+    width: 1020px;
+    position: absolute;
+    padding: 17px;
+    right: 0;
+}
+
+.search-input-itc {
+    width: 200px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.total-badge {
+    margin-block: auto;
+    padding: 5px 5px;
+    font-size: 12px !important;
+}
+
+#filterSelector.open {
+    display: block !important;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.checkbox {
+    position: relative;
+    top: 2px;
+}
+
+.summary-card {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.border-bottom-itc {
+    border-bottom: 1px solid #f3f3f3;
+    margin-inline: 0px;
+}
+
+.form-control {
+    padding: 5px 10px !important;
+    background: transparent;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.text-transparent {
+    color: transparent !important
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.itc-form .form-control {
+    height: 38px !important;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.formatOptionLabel {
+    width: 50%;
+}
+
+.select__single-value {
+    width: 95% !important;
+}
+
+.itc-project-badge {
+    padding: 5px 18px;
+    border-radius: 10px;
+    line-height: 17px;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.itc-project-status-badge {
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    line-height: 1;
+    margin-left: 0.5rem;
+    font-size: 75%;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.payment-paid {
+    background-color: #177548;
+    color: #fff;
+}
+
+.payment-not-paid {
+    background-color: #b70002;
+    color: #FFF;
+}
+
+.lead-cold-calling, .implementationType-ASATEEL {
+    color: #dc0e0e;
+    background-color: #dc0e0e45;
+}
+
+.lead-door-to-door, .project-status-on-going {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.lead-referral, .lead-type-new, .implementationType-dual, .project-status-Completed {
+    color: #28a745;
+    background-color: #28a74545;
+}
+
+.lead-company-lead, .lead-type-existing-customer, .implementationType-locator {
+    color: #056a7b;
+    background-color: #17a2b845;
+}
+
+.lead-dealer, .lead-migration, .implementationType-RASID, .project-status-file-added {
+    color: #943cba;
+    background-color: #943cba45;
+}
+
+.project-status-new {
+    color: #b55522;
+    background-color: #b5552245;
+}
+
+.project-number {
+    background: #3e4e67;
+    color: #a9b8d0;
+}
+
+.project-cart-details {
+    background: #e6fff8;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.menu-styler .style-toggler>a:before {
+    top: 60px !important;
+}
+
+.menu-styler.open .style-toggler>a:after {
+    top: 50px
+}
+
+.required {
+    color: red;
+}
+
+.menu-styler .style-block {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.status-update {
+    font-size: 10px;
+    color: #17a2b8;
+    margin-left: 3px;
+}
+
+.permit-copy{
+    background-color: #f4c22b33 !important;
+}
+
+.permit-action-buttons{
+    border-top: 1px solid #e8e8e8;
+    padding: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.permit-device-log-icon{
+    background: #3e4e67;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 2px;
+    color: #1bc4e9;
+    cursor: pointer;
+}
+
+.header-multi-select .css-g1d714-ValueContainer, .header-multi-select .css-1hwfws3{
+    height: 36px !important;
+    overflow-y: auto !important;
+}

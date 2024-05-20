@@ -1,0 +1,45 @@
+#job-info {
+  .priority-icon {
+  }
+  .priority-icon:hover {
+    cursor: pointer;
+    outline: 1px dashed gray;
+  }
+  .priority-icon-disabled {
+    svg {
+      background-color: white;
+    }
+    color: rgb(218, 218, 218);
+  }
+  .priority-icon-enabled {
+    svg {
+      //   background-color: red;
+      color: red;
+      //   border-radius: 50%;
+      padding: 1px;
+    }
+  }
+}
+
+#schedule-card-company-info {
+  .company-contacts {
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: column;
+    gap: 2px;
+    margin: 0;
+
+    .company-info-row {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
+
+// .company-contacts {
+//   .contact-name:hover,
+//   .contact-phone:hover {
+//     outline: 1px dashed gray;
+//     cursor: pointer;
+//   }
+// }

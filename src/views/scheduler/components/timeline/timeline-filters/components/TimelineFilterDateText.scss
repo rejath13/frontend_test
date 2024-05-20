@@ -1,0 +1,23 @@
+#timeline-date-text-container {
+  align-self: center;
+  justify-self: center;
+  .timeline-date-text {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: rgb(29, 143, 214);
+
+    margin: 0;
+    // margin-left: 15rem;
+
+    span:nth-child(2) {
+      font-size: 1rem;
+      margin: 0;
+      line-height: 0.95;
+      font-style: italic;
+    }
+  }
+}

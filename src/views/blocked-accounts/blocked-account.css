@@ -1,0 +1,78 @@
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span{
+    word-wrap: normal;
+}
+
+.accname{
+    width: 24%;
+}
+
+.contactcolumn{
+    width: 10%;
+}
+
+.blockedcolumn{
+    width: 8%;
+}
+
+.latestdatecolumn{
+    width: 7%;
+}
+
+.reasoncolumn{
+    width: 25%;
+    border-right: none !important;
+}
+
+.commentcolumn{
+    width: 25%;
+    border-right: none !important;
+}
+
+.monitoringbuttoncolumn{
+    width: 1%;
+    border-left: none !important;
+}
+
+.buttoncolumn{
+    width: 1%;
+}
+
+.mon-note-list{
+    height: 35vh;
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus, .btn-warning.focus{
+    color: #fff;
+}

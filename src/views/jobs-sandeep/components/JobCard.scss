@@ -1,0 +1,444 @@
+$green: #28a745;
+$teal: #17a2b8;
+$blue: #007bff;
+$black: #000;
+$default-blue: #0000ff;
+
+// $job-default-border-left: 5px solid rgb(42, 167, 217);
+// $job-service-border-left: 5px solid rgb(65, 191, 37);
+$job-default-border-left: 5px solid $default-blue;
+$job-service-border-left: 5px solid $black;
+
+.service-border {
+  border-left: $job-service-border-left;
+}
+.default-border {
+  border-left: $job-default-border-left;
+}
+
+// Pop over in status note, schedule note and job remark
+.popover {
+  white-space: pre-line;
+}
+
+.job-card {
+  display: flex;
+  padding: 0.35rem;
+  gap: 1.5rem;
+  font-size: 0.7rem;
+  position: relative;
+  overflow: visible;
+
+  h2,
+  p {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  // background-color: yellow;
+
+  &__column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__column3 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+
+    p {
+      margin-bottom: 0.125rem;
+      // max-width: 10rem;
+      // min-width: 10rem;
+    }
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  &__column4 {
+    display: flex;
+    flex-direction: column;
+
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    > div {
+      text-align: center;
+      > div {
+        margin-bottom: 0.35rem;
+      }
+    }
+  }
+
+  &__column5 {
+    flex:3;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+
+    form {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 1rem;
+
+      textarea {
+        border-radius: 8px;
+        background-color: #f5f3f3;
+        border: 1px solid #ccc;
+      }
+
+      textarea::placeholder {
+        padding-left: 0.5rem;
+        // color: blue;
+      }
+    }
+  }
+
+  &__column6 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__quantity {
+    padding: 0.125rem 0.25rem 0.125rem 0.25rem;
+    color: white;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    background-color: rgb(52, 133, 238);
+  }
+
+  &__horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  &__status-row {
+    display: flex;
+    // gap: 1rem;
+    justify-content: space-evenly;
+  }
+
+  &__icon {
+    // text-align:center;
+    display: flex;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .button-row-icon {
+    //   padding: 0.5rem;
+    border-radius: 50%;
+    width: 1.75rem;
+    height: 1.75rem;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      color: white;
+    }
+  }
+}
+
+.icon-danger {
+  color: red;
+}
+
+.icon-success {
+  color: green;
+}
+
+.implementation-green {
+  color: $green;
+  font-weight: bold;
+}
+
+.implementation-blue {
+  color: $blue;
+  font-weight: bold;
+}
+
+.implementation-teal {
+  font-weight: bold;
+  color: $teal;
+}
+
+.svg-container {
+  width: 1.75rem;
+  height: 1.75rem;
+  // padding: 1rem;
+  background-color: rgba(67, 67, 167, 0.733);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0;
+  position: relative;
+
+  &__index {
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    // flex: 1;
+  }
+  &__sort-handle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1 !important;
+    // flex: 3;
+    overflow: visible;
+    svg {
+      width: 1.5rem;
+      // position: absolute;
+      // left: -2.5rem;
+      // z-index: 15;
+      // margin: -2.5rem;
+      height: 1.5rem;
+    }
+    // margin-top: -30px;
+  }
+
+  &__status-colour-box {
+    background-color: #28a745;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.15rem;
+  }
+}
+
+.column2 {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  // flex: 0;
+
+  &__date-created {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+
+    p {
+      margin-bottom: 0;
+    }
+    .date-heading {
+      font-size: 0.7rem;
+    }
+    .date {
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+  }
+  &__sales-person {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    svg {
+      width: 0.9rem;
+      height: 0.9rem;
+      // background-color: #aaa;
+      color: rgb(75, 75, 75);
+      border-radius: 50%;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &__expected-completion {
+    display: flex;
+    // margin-left: 1.75rem;
+
+    .svg-container {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+
+    svg {
+      width: 0.75rem;
+      height: 0.75rem;
+
+      color: white;
+      // background-color: black;
+    }
+  }
+}
+
+.column3 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+
+  &__company-name {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    // max-width: 20rem;
+    // min-width: 15rem;
+  }
+
+  // &__customer-phone {
+  // }
+}
+
+.single-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.column4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__quantity-text {
+    span {
+      padding: 0 0.1rem;
+      background-color: rgb(52, 133, 238);
+      color: white;
+    }
+  }
+
+  &__project-value {
+    p {
+      font-weight: bold;
+    }
+  }
+}
+
+.column4__quantity,
+.column4__project-value {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: center;
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #999;
+  }
+}
+
+.column5 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.55rem;
+  min-width: 15rem;
+
+
+  .form-group {
+    margin-bottom: 0;
+  }
+  .status-note-wrapper,
+  .schedule-note-wrapper,
+  .job-remarks-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    label {
+      margin-bottom: 0;
+      font-size: 0.55rem;
+      flex: 1;
+    }
+  }
+
+  .status-note,
+  .schedule-note,
+  .job-remarks {
+    flex: 3;
+    height: 1.75rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(245, 244, 244);
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+  }
+  .status-note:hover,
+  .schedule-note:hover,
+  .job-remarks:hover {
+    cursor: pointer;
+  }
+}
+
+// // .column5__status-note,
+// // .column5__status-won-note,
+// // .column5__job-remarks {
+// // }
+
+// .column5__status-note:hover,
+// .column5__status-won-note:hover,
+// .column5__job-remarks:hover {
+//   cursor: pointer;
+// }
+
+.column6 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // margin-left: auto; // for pushing the column to the right
+  
+
+  &__status-row {
+    display: flex;
+    gap: 1.5rem;
+    // align-self: flex-end;
+    justify-content: space-evenly;
+    background-color: rgba(67, 67, 167, 0.133);
+    padding: 3px 3px;
+    border-radius: 5px;
+  }
+
+  &__button-row {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

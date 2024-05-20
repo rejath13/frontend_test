@@ -1,0 +1,64 @@
+.expected-date-completion {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .date {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+
+    p {
+      font-size: 0.55rem;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+  }
+}
+
+.calendar-icon-container {
+  position: relative;
+  // overflow: visible;
+
+  svg:hover {
+    cursor: pointer;
+  }
+}
+
+.datepicker-container {
+  position: absolute;
+
+  width: 20rem;
+  height: 20rem;
+  z-index: 2;
+  border-radius: 0.25rem;
+  overflow: visible;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  // .react-datepicker__input-container {
+  //   position: absolute;
+  // }
+
+  background-color: white;
+
+  // & > * {
+  //   z-index: 9999;
+  // }
+
+  // .react-datepicker-wrapper {
+  //   position: absolute;
+  //   max-width: 100% !important;
+  //   z-index: 9999;
+  // }
+
+  input {
+    // position: absolute;
+    z-index: 9999;
+  }
+}

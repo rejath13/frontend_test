@@ -1,0 +1,17 @@
+.update-schedule-data-modal {
+  .schedule-data-form {
+    display: flex;
+    // align-items: center;
+    gap: 1rem;
+  }
+
+  .date-btn-row {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      flex: 1;
+      margin-top: 10px;
+    }
+  }
+}

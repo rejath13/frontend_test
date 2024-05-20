@@ -1,0 +1,12 @@
+.route-loader {
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    width: 98%;
+    background: #0000009e;
+    height: 80vh;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    color: #fff;
+}

@@ -1,0 +1,83 @@
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.popupLoader{
+    height: 83vh;
+    width: 96 !important;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+td p{
+    margin: 0;
+}
+
+span{
+    word-wrap: normal;
+}
+
+.firstcolumn{
+    width: 2%;
+    border-right: none !important;
+}
+
+.namecolumn{
+    width: 20%;
+    border-left: none !important;
+}
+
+.contactwidth{
+    width: 15%;
+}
+
+.termwidth{
+    width: 5%;
+}
+
+.expdatewidth{
+    width: 7%;
+}
+
+.countwidth{
+    width: 4%;
+}
+
+.simg{
+    width: 2%;
+}
+
+.lastloginwidth{
+    width: 7%;
+}
+
+.buttonswidth{
+    width: 1%;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+.statuswidth{
+    width: 7%;
+}
+
+.mon-note-list{
+    height: 35vh;
+}

@@ -1,0 +1,200 @@
+@import "/src/assets/scss/variables.scss";
+
+$btn-filter-bg: $blueColor;
+$btn-filter-hover-bg: $grayColor;
+// $filter-section-border-color: #d8d7d7;
+$filter-section-border-color: #888;
+$filter-section-bg: white;
+
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+}
+
+.navbar-nav,
+.navbar-collapse,
+.navbar {
+  // visibility: hidden;
+  z-index: 1;
+}
+
+.filter-jobs {
+  // .nav-item:hover {
+  //   background-color: red;
+  // }
+  z-index: 11;
+  .nav.nav-tabs {
+    position: absolute;
+    top: -2.28rem;
+    left: 0.25rem;
+    z-index: 100;
+    background-color: white;
+  }
+
+  .nav-link.active,
+  .nav-link.active:hover {
+    background-color: black;
+    color: white;
+  }
+  .nav-link {
+    // background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+  }
+
+  .nav-link:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.filter-jobs {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  align-items: center;
+  background-color: $filter-section-bg;
+  border-radius: 0.5rem;
+  border: 1px solid $filter-section-border-color;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+
+  &__column1 {
+    display: flex;
+    align-self: stretch;
+    // gap: 0.5rem;
+    border-right: 1px dotted darken($lightGrayColor, 10%);
+    padding: 0;
+  }
+
+  &__btn-pending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__btn-completed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .invisible {
+      visibility: hidden;
+    }
+  }
+
+  &__column2 {
+    display: flex;
+    gap: 0.5rem;
+    // align-items: stretch;
+  }
+
+  &__checkbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // flex: 1;
+    width: 94px;
+    // flex-basis: 200px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.025rem;
+      align-items: center;
+    }
+  }
+
+  &__filter-button {
+    padding: 0.55rem 0.5rem;
+    position: relative;
+    svg {
+      width: 1.75rem !important;
+      height: 1.75rem !important;
+    }
+  }
+}
+
+input[type="checkbox"] {
+  background-color: black !important;
+}
+
+.filter-jobs__btn-pending,
+.filter-jobs__btn-completed {
+  background-color: lighten($btn-filter-bg, 35%);
+  border: none;
+  padding: 0.25rem 0.75rem;
+  position: relative;
+  // border-radius: 0.45rem;
+  color: darken($lightGrayColor, 60%);
+  // overflow: hidden;
+}
+
+.filter-jobs__btn-pending::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px; /* Adjust the width of the slanted border */
+  border-right: 1px solid black;
+  background-color: lighten($btn-filter-bg, 35%);
+  transform: skewX(-10deg);
+  transform-origin: bottom right;
+}
+.filter-jobs__btn-completed::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px; /* Adjust the width of the slanted border */
+  background-color: lighten(
+    $btn-filter-bg,
+    35%
+  ); /* Set the background color of the slanted border */
+  transform: skewX(-10deg); /* Adjust the angle by changing the degree value */
+  transform-origin: bottom right;
+}
+
+.filter-jobs__btn-pending:hover,
+.filter-jobs__btn-completed:hover {
+  background-color: $blueColor;
+  color: white;
+}
+.filter-jobs__btn-pending:active,
+.filter-jobs__btn-completed:active {
+  background-color: $blueColor;
+  color: white;
+}
+
+.loader-main {
+  position: absolute;
+  // height: 75vh;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+
+  div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+}
+
+.spinner {
+  width: 2.5rem;
+  height: 2.5rem;
+}

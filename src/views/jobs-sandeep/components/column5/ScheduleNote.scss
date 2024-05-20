@@ -1,0 +1,9 @@
+.status-note {
+  position: relative;
+  display: flex;
+
+  .btn {
+    position: absolute;
+    right: 0;
+  }
+}

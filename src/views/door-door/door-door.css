@@ -1,0 +1,245 @@
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+.fullLoader{   
+    height: 96vh;
+    position: absolute;
+    width: 98%;
+    background: white;
+    opacity: 0.9;
+    z-index: 1075;
+    top: -35px;
+    border-radius: 5px;
+}
+
+.fullsvgLoader{
+    margin: 20% 44%;
+}
+
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span{
+    word-wrap: normal;
+}
+
+.removecheckbox{
+    width: 1%;
+}
+
+.namecolumn{
+    width: 18%;
+}
+.Phonecolumn{
+    width: 8%;
+}
+.zonecolumn{
+    width: 7%;
+}
+.Deletecolumn{
+    width: 2%;
+}
+
+.Qtycolumn{
+    width: 5%;
+    padding-right: 5px !important;
+}
+
+
+.Notecolumn{
+    width: 30%;
+}
+
+.buttoncolumn{
+    width: 1%;
+    border-left: none !important;
+}
+
+.interested{
+ background-color:#9af07a ;
+ border-color: #9af07a;
+ border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+.futurereq{
+ background-color:#FFA500 ;
+ border-color: #FFA500;
+}
+.noresponse{
+ background-color:red ;
+ border-color: red;
+}
+.noreq{
+ background-color:gray ;
+ border-color: gray;
+}
+.invalid{
+ background-color: #595856  ;
+ border-color: #595856;
+}
+
+
+.statuscolumn{
+    width: 13%;
+}
+
+.monitoringnotecolumn{
+    width: 21%;
+    border-right: none !important;
+}
+
+.monitoringdatecolumn{
+    width: 9%;
+}
+
+.monitoringbuttoncolumn{
+    width: 1%;
+    border-left: none !important;
+}
+
+.buttoncolumn{
+    width: 1%;
+}
+
+.mon-note-list{
+    height: 35vh;
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus, .btn-warning.focus{
+    color: #fff;
+}
+
+.joborder{
+padding: 2px 5px;
+background: #b31199;
+color: #fff;
+border-radius: 50%;
+}
+
+.technician{
+background-color: #564aa3;
+color: #fff;
+width: 95%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px; 
+}
+.type{
+  background-color: #564aa3;
+color: #fff;
+width: 40%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px;  
+}
+.divcomment{
+    border: 1px solid #cfdadd;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.nc {
+  padding: 5px;
+  background: gray;
+  border-radius: 5px;
+  color: #fff;
+  width: 28px;
+  display: inline-block;
+  text-align: center;
+}
+.accountvehicle{
+   margin-left: 10px; 
+}
+.pointer {cursor: pointer;}
+.table th, .table td
+{
+    vertical-align: top !important;
+}
+.smallbtn
+{
+    padding:0px 10px !important;
+}
+.topbuttons
+{
+    padding:10px !important;
+    margin-right: 5px;
+}
+.topcols
+{
+    margin-top: 10px;;
+}
+
+.btn-primary.active{
+    box-shadow:  0 0 0 .2rem rgba(0,123,255,.5) !important;
+}
+
+.btn-success.active{
+    box-shadow: 0 0 0 .2rem rgba(40,167,69,.5) !important;
+}
+
+.btn-warning.active{
+    box-shadow: 0 0 0 .2rem rgba(255,193,7,.5) !important;
+}
+
+.btn-danger.active{
+    box-shadow: 0 0 0 .2rem rgba(220,53,69,.5) !important;
+}
+
+.btn-secondary.active{
+    box-shadow: 0 0 0 .2rem rgba(108,117,125,.5) !important;
+}
+
+.btn-info.active{
+    box-shadow: 0 0 0 .2rem rgba(23,162,184,.5) !important;
+}
+
+.highlight{
+    margin: 0;
+}
+
+.tab-content{
+    background: none;
+}
+
+.nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: #04a9f5;
+}
+
+.nav-tabs .nav-link{
+    color: #000;
+    background-color: #fff;
+}

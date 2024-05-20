@@ -1,0 +1,441 @@
+.new-container {
+  width: 100%;
+  height: 100%;
+  // background-color: rgba(243, 238, 238, 0.911);
+  background-color: #ffff;
+  background-clip: border-box;
+  word-wrap: break-word;
+  padding: .5rem;
+}
+
+.table-container {
+  // background-color: red;
+  padding: 1rem;
+  overflow: hidden;
+  width: 85vw;
+}
+
+.my-custom-table {
+  overflow-x: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.s-header {
+  // background-color: aqua;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-content: space-between;
+  margin: .4rem;
+}
+.s-header-r{
+  width: 28rem;
+}
+
+
+
+.secure-path {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+// .adress{
+//     height: 50px;
+//     width: 50px;
+// }
+
+.company-name{
+  font-size: 15px;
+  cursor: pointer;
+  font-family:sans-serif;
+  padding: 1rem;
+}
+
+.label-text{
+  color: azure;
+}
+
+.s-table-body{
+  width: 100%;
+  // background-color: yellow;
+}
+.s-table-row{
+  width: 100%;
+  height: 0.1rem !important;
+
+}
+// .table .td{
+//   // max-width: 1rem;
+//   padding: 8px 0 8px 8px;
+//   // font-size: 1rem;
+// }
+
+.table td, .table th {
+  white-space: normal;
+  // padding: 8px 0 8px 8px;
+   padding: 0px 0 0px 7px;
+}
+
+
+.add-custom-modal {
+  width: 80vw;
+  max-width: 800px; 
+  height: 80vh;
+  max-height: 800px; 
+}
+
+//new styles
+.sp-header-container{
+  display: flex;
+  // background-color: red;
+  height: 4em;
+  min-width: 100%;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 8px;
+  margin-right: -20px;
+}
+.sp-search{
+  min-width: 20px;
+}
+
+// .cmp-container{
+//   width: 100%;
+//   // background-color: red;
+// }
+
+
+@mixin badge {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  font-size: 75%;
+  font-weight: 200;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@mixin badge-variant($color) {
+  background-color: $color;
+  color: white;
+  font-weight: 900;
+  margin-right: 10px;
+  font-size: 10px !important
+}
+.badge-status {
+  @include badge;
+  @include badge-variant(#2ecc72);
+  
+ 
+}
+.badge-type {
+  @include badge;
+  @include badge-variant(#3498DB);
+ 
+}
+.badge-count {
+  @include badge;
+  @include badge-variant(#AE1438);
+}
+
+
+$base-font-size: 16px;
+
+// Define mixin for responsive font size
+@mixin responsive-font-size($min-size, $max-size) {
+  font-size: $base-font-size;
+  
+  @media screen and (min-width: 1536px) {
+    font-size: calc(#{$min-size}*1px) !important;
+  }
+  
+  // @media screen and (min-width: 1200px) {
+  //   font-size: calc(#{$max-size}*1px);
+  // }
+}
+
+
+// .sp-table-body{
+//   // @include responsive-font-size(20,14)
+// }
+
+
+.sp-table{
+  tr th{
+    font-size:small;
+    font-weight: 800;
+    // background-color: #2ecc72 !important;
+  }
+  .cmp-container{
+    .cmp-name{
+      // font-family;;
+      // font-family: "Open Sans", sans-serif !important;
+      font-size:1rem !important;
+      cursor: pointer;
+    }
+
+  }
+}
+
+
+
+.sp-table {
+    min-width: 100%;
+    max-width: 100%;
+    font-size: auto;
+    overflow: hidden !important;
+    border-collapse: collapse;
+  }
+
+
+  .sp-table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f9fc;
+    border-left: 1px solid #000;
+    // font-weight:300;
+
+  }
+  
+  .sp-table tr:nth-child(odd) {
+    background-color: #ebf3f9;
+  }
+  
+  .sp-table th {
+   
+    display: none;
+  }
+  
+  .sp-table td {
+    display: block;
+  }
+  
+  .sp-table td:first-child {
+    margin-top: .5em;
+  }
+  .sp-table {
+      td {
+          border: 0.1em dotted rgb(160, 160, 160); 
+      }
+      // td:nth-child(3) {
+      //     // background-color: rgb(167, 123, 123);
+      //     padding-left: 0% !important;
+      //     padding-right: 0% !important;
+      //     margin-left: 0% !important;
+      //     margin-right: 0% !important;
+      // }
+  
+      td:first-child {
+        min-width: 15.5em !important;
+        font-weight: bolder !important;
+        font-size: .8rem !important;
+        strong{
+            font-size: 15px;
+            font-weight: bolder; 
+        }
+      }
+      tr th{
+        border-right: 0.1em dotted rgb(160, 160, 160); 
+      }
+    }
+  
+  .sp-table td:last-child {
+    margin-bottom: .5em;
+  }
+  
+  .sp-table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    color: #000;
+  }
+  
+  .sp-table th,
+  .sp-table td {
+    text-align: left;
+    font-size: 1.1em;
+  }
+  
+  .sp-table {
+    color: #333;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+  
+  .sp-table tr {
+    border-color: #bfbfbf;
+  }
+  
+  .sp-table th,
+  .sp-table td {
+    padding: .5em 1em;
+  }
+  @media screen and (max-width: 601px) {
+    .sp-table tr:nth-child(2) {
+      border-top: none;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .sp-table tr:hover:not(:first-child) {
+      background-color: #d8e7f3;
+    }
+    .sp-table td:before {
+      display: none;
+    }
+    .sp-table th,
+    .sp-table td {
+      display: table-cell;
+      padding: .25em .5em;
+    }
+    .sp-table th:first-child,
+    .sp-table td:first-child {
+      padding-left: 0;
+    }
+    .sp-table th:last-child,
+    .sp-table td:last-child {
+      padding-right: 0;
+    }
+    .sp-table th,
+    .sp-table td {
+      padding: 1em !important;
+    }
+  }
+  
+  
+  
+  
+  .sp-table h1 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #f2f2f2;
+  }
+  // .container {
+  //   display: block;
+  // //   text-align: center;
+  // }
+  .sp-table h3 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: #cecece;
+  }
+  .sp-table h3:before {
+    content: "\25C0";
+    position: absolute;
+    left: -50px;
+    -webkit-animation: leftRight 2s linear infinite;
+    animation: leftRight 2s linear infinite;
+  }
+  .sp-table h3:after {
+    content: "\25b6";
+    position: absolute;
+    right: -50px;
+    -webkit-animation: leftRight 2s linear infinite reverse;
+    animation: leftRight 2s linear infinite reverse;
+  }
+  @-webkit-keyframes leftRight {
+    0%    { -webkit-transform: translateX(0)}
+    25%   { -webkit-transform: translateX(-10px)}
+    75%   { -webkit-transform: translateX(10px)}
+    100%  { -webkit-transform: translateX(0)}
+  }
+  @keyframes leftRight {
+    0%    { transform: translateX(0)}
+    25%   { transform: translateX(-10px)}
+    75%   { transform: translateX(10px)}
+    100%  { transform: translateX(0)}
+  }
+
+  //tooltip
+$tooltip-background: #ffff;
+$tooltip-text-color: #000000;
+$tooltip-padding: 1px;
+$tooltip-arrow-size: 5px;
+
+// Mixin for arrow
+@mixin tooltip-arrow($position) {
+  &::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: $tooltip-arrow-size;
+    border-color: transparent;
+  }
+
+  @if $position == top {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-color: $tooltip-background;
+  } @else if $position == bottom {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-color: $tooltip-background;
+  } @else if $position == left {
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+    border-left-color: $tooltip-background;
+  } @else if $position == right {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    border-right-color: $tooltip-background;
+  }
+}
+
+// Tooltip style
+.tooltip-custom {
+  // background-color: #3498DB;
+  position: relative;
+  display: inline-block;
+  cursor:pointer;
+
+  &::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: $tooltip-background;
+    color: $tooltip-text-color;
+    padding: $tooltip-padding;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 999; 
+  }
+
+  &:hover::before {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &.top {
+    @include tooltip-arrow(top);
+    bottom: calc(100% + #{$tooltip-arrow-size});
+  }
+
+  &.bottom {
+    @include tooltip-arrow(bottom);
+    top: calc(100% + #{$tooltip-arrow-size});
+  }
+
+  &.left {
+    @include tooltip-arrow(left);
+    right: calc(100% + #{$tooltip-arrow-size});
+  }
+
+  &.right {
+    @include tooltip-arrow(right);
+    left: calc(100% + #{$tooltip-arrow-size});
+  }
+}

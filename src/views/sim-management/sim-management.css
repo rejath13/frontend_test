@@ -1,0 +1,155 @@
+.swal2-container {
+    z-index: 2000;
+}
+
+.divLoader {
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 2010;
+    opacity: 0.9;
+}
+
+.divLoader svg {
+    margin: 18% 45%;
+}
+
+.table td,
+.table th {
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span {
+    word-wrap: normal;
+}
+
+.vehiclecolumn {
+    width: 15%;
+}
+
+.namecolumn {
+    width: 15%;
+}
+
+.imeicolumn {
+    width: 12%;
+    padding-right: 8px !important;
+}
+
+.iccidcolumn {
+    width: 15%;
+}
+
+.networkclmn {
+    width: 6%;
+    padding-right: 8px !important;
+}
+
+.commentcolumn {
+    width: 20%;
+    padding-right: 8px !important;
+}
+
+.buttoncolumn {
+    width: 2%;
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus,
+.btn-warning.focus {
+    color: #fff;
+}
+
+.redtext {
+    color: red;
+    cursor: pointer;
+}
+
+.greentext {
+    color: green;
+    cursor: pointer;
+}
+
+.etisalat-table {
+    display: table;
+    width: 100%;
+    overflow-x: auto;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.etisalat-table thead tr,
+.etisalat-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.etisalat-table thead th,
+.etisalat-table td {
+    border: 1px solid #eaeaea;
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+.etisalat-table tbody {
+    max-height: 50vh;
+    overflow-y: scroll;
+    display: block;
+}
+
+.flexible-modal {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 0.3rem;
+    z-index: 2000 !important;
+    height: 85vh !important;
+}
+
+.flexible-modal h5 {
+    padding: 15px;
+    margin: 0;
+}
+
+.flexible-modal-mask {
+    position: fixed;
+    height: 100%;
+    background: rgba(55, 55, 55, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.flexible-modal-resizer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: se-resize;
+    margin: 5px;
+    border-bottom: solid 2px #333;
+    border-right: solid 2px #333;
+}
+
+.flexible-modal-drag-area {
+    background: none !important;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: move;
+}

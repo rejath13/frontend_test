@@ -1,0 +1,122 @@
+.swal2-container {
+    z-index: 2000;
+}
+
+.servicePageLoader {
+    height: 96vh;
+    position: absolute;
+    width: 100%;
+    background: white;
+    z-index: 1100;
+    opacity: 0.9;
+    top: -45px;
+    border-radius: 10px;
+}
+
+.modalLoader {
+    height: 60vh;
+    position: absolute;
+    width: 94%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.modalLoader svg {
+    margin: 40% 35%;
+}
+
+.servicePageLoader svg {
+    margin: 18% 45%;
+}
+
+.table td,
+.table th {
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span {
+    word-wrap: normal;
+}
+
+.customercolumn {
+    width: 13%;
+}
+
+.monnamecolumn {
+    width: 15%;
+}
+
+.support_column {
+    width: 20%;
+    padding: 8px 0 0 !important;
+    vertical-align: top !important;
+}
+
+.payment_column {
+    width: 9%;
+}
+
+.payment_status_column {
+    width: 6%;
+}
+
+.status_column {
+    width: 10%;
+}
+
+.mon-note-list {
+    height: 35vh;
+}
+
+.initiated-section {
+    padding: 4px 8px;
+    background-color: #ffc10726;
+    margin: 0;
+}
+
+.verified-section {
+    padding: 4px 8px;
+    background-color: #28a74521;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.badge-warning {
+    color: #fff;
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus,
+.btn-warning.focus {
+    color: #fff;
+}
+
+.redText {
+    color: red;
+}
+
+.table-responsive {
+    height: 100%;
+}
+
+.support-note{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}

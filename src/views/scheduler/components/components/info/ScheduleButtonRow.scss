@@ -1,0 +1,33 @@
+.btn-send-to-technician {
+  background-color: blue;
+  color: white;
+}
+
+.btn-send-to-technician,
+.btn-repeat-schedule,
+.btn-send-schedule {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.btn-repeat-schedule {
+  color: black;
+  justify-self: flex-end;
+}
+
+.btn-send-schedule {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.schedule-button-row {
+  justify-content: flex-end;
+  gap: 0.5rem;
+  //   justify-self: flex-end;
+}

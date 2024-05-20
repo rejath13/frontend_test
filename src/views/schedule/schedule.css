@@ -1,0 +1,135 @@
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span{
+    word-wrap: normal;
+}
+
+.deviceactive{
+    background: #00D563;
+}
+.deviceactivetd{
+   text-align: center;
+}
+
+
+.prioritybuttoncolumn{
+    border-right: none !important;
+}
+
+
+.ordercolumn{
+    width: 3%;
+}
+
+.datecolumn{
+    width: 13%;
+}
+
+.namecolumn{
+    width: 20%;
+    border-left: none !important;
+}
+
+.techcolumn{
+    width: 8%;
+}
+
+.countcolumn{
+    width: 6%;
+}
+
+.iconscolumn{
+    width: 6%;
+    border-left: none !important;
+}
+
+.leadcolumn{
+    width: 6%;
+}
+
+.personcolumn{
+    width: 8%; 
+}
+
+.statuscolumn{
+    width: 10%; 
+}
+
+.prioritycolumn{
+    width: 2%;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.buttoncolumn{
+    width: 1%;   
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus, .btn-warning.focus{
+    color: #fff;
+}
+
+.joborder{
+padding: 2px 5px;
+background: #b31199;
+color: #fff;
+border-radius: 50%;
+}
+
+.technician{
+background-color: #564aa3;
+color: #fff;
+width: 95%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px; 
+}
+.type{
+  background-color: #564aa3;
+color: #fff;
+width: 40%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px;  
+}
+.divcomment{
+    border: 1px solid #cfdadd;
+    border-radius: 2px;
+    padding: 15px;
+}

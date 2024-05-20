@@ -1,0 +1,12 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: visible !important;
+  // z-index: 1;
+  //   gap: 0.25rem;
+
+  .btn-load-more {
+    align-self: center;
+  }
+}

@@ -1,0 +1,44 @@
+#schedule-applied-filters {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 0 1rem;
+
+  .applied-filters-heading,
+  #schedule-applied-filters,
+  .applied-filters-count {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+  }
+  .applied-filters-count {
+    // font-weight: bold;
+    // margin-left: auto;
+    border-right: 1px dashed gray;
+    padding-right: 1rem;
+  }
+
+  .applied-filters-count-badge {
+    font-size: 0.75rem;
+  }
+
+  .applied-filters-heading {
+    font-weight: bold;
+  }
+
+  .applied-filters-breadcrumb {
+    margin-bottom: 0;
+    padding: 5px;
+    .applied-filters-breadcrumb-item {
+      margin-bottom: 0;
+      font-style: italic;
+    }
+    ol.breadcrumb {
+      margin-bottom: 0 !important;
+      align-items: center;
+      padding: 0;
+    }
+  }
+}

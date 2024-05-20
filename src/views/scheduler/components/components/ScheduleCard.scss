@@ -1,0 +1,258 @@
+#schedule-card {
+  width: 100%;
+  //   min-height: 100px;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #d8d8d8;
+  padding: 0.35rem 0.65rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  margin-bottom: 0.2rem;
+
+  .heading-stacked {
+    display: flex;
+    flex-direction: column;
+    // gap: 1rem;
+  }
+
+  .heading-horizontal {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .flex-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  .column1,
+  .column2,
+  .column3,
+  .column4 {
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 0.68rem;
+      line-height: initial;
+    }
+
+    .label-name {
+      font-weight: bold;
+    }
+  }
+
+  .column1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+
+    .row1 {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+
+      .priority-icon {
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      .sales-person {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // gap: 0.25rem;
+      }
+    }
+    .row2 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+
+      .company-contacts {
+        display: flex;
+        // gap: 1rem;
+      }
+
+      .heading-stacked {
+        gap: 0.25rem;
+        line-height: 1;
+      }
+      .job-qty {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+      }
+      .job-qty-badges {
+        display: flex;
+        gap: 0.35rem;
+        .badge {
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+  .column2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 0.5rem;
+
+    .row1 {
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+
+      .badge-time-slot,
+      .badge-technician {
+        padding: 0.15rem 0.25rem;
+        font-size: 0.6rem;
+      }
+
+      .badge-technician {
+        background-color: #7b61ff;
+        color: white;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: 8px;
+          height: 8px;
+          color: yellow;
+        }
+      }
+
+      .heading-stacked {
+        gap: 0.15rem;
+      }
+    }
+    .row2 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      padding: 1px 5px;
+      background-color: #f5f5f5;
+      border-radius: 0.5rem;
+    }
+    .qty-row {
+      gap: 0.25rem;
+    }
+
+    .flex-row.location {
+      gap: 0.15rem !important;
+      margin-top: 5px;
+    }
+
+    .location-icon {
+      svg {
+        width: 16px;
+        height: 16px;
+        color: rgb(75, 135, 247);
+      }
+    }
+  }
+
+  .column3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+    .schedule-card-comment {
+      border-radius: 0.3rem;
+      border: 1px solid #ccc;
+      height: 30px;
+      min-width: 125px;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+  }
+
+  .column4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    // gap: 1rem;
+    justify-content: space-between;
+
+    // .heading-stacked {
+    //   align-items: center;
+    //   gap: 2px;
+    // }
+    .badge {
+      font-size: 0.6rem;
+      padding: 0.15rem 0.25rem;
+      width: 100%;
+    }
+
+    .row1 {
+      display: flex;
+      align-content: space-between;
+      gap: 0.75rem;
+    }
+
+    p.tiny-info {
+      align-self: center;
+      font-size: 7px;
+      font-style: italic;
+    }
+    .row2 {
+      display: flex;
+      width: 100%;
+
+      // .btn-repeat-schedule {
+      //   margin-left: auto;
+      //   background-color: rgb(248, 213, 97);
+      //   border: 1px solid #b3b3b3;
+      //   border-radius: 50%;
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: center;
+      //   // box-shadow: 0 0 1px rgba(117, 117, 117, 0.3);
+
+      //   width: 1.25rem;
+      //   height: 1.25rem;
+      //   svg {
+      //     color: rgb(49, 49, 49);
+      //     width: 0.75rem;
+      //     height: 0.75rem;
+      //   }
+      // }
+    }
+
+    .schedule-status-row {
+      .heading-stacked {
+        gap: 0.1rem;
+      }
+      *.badge {
+        padding: 0.1rem, 0.25rem;
+      }
+    }
+  }
+}
+
+// .schedule-card > *:not(:last-child) {
+//   border-right: 1px dashed #cac9c9;
+//   padding-right: 10px;
+// }
+
+// .schedule-card > * {
+//   padding: 0 0.75rem;
+// }

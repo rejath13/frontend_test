@@ -1,0 +1,21 @@
+// $job-card-bg-colour: rgb(238, 237, 237);
+$job-card-bg-colour: rgb(253, 253, 253);
+$job-card-border-colour: #d8d7d7;
+
+.job-list {
+  // background-color: red;
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+
+  &__item {
+    width: 100%;
+    background-color: $job-card-bg-colour;
+    // padding: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid $job-card-border-colour;
+    position: relative;
+  }
+}

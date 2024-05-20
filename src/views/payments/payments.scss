@@ -1,0 +1,90 @@
+.payment-container {
+  max-height: 110vh;
+  .add-btn {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .search-filter {
+    display: flex;
+    gap: 20px;
+  }
+
+  .section-container {
+    width: 100%;
+    display: flex;
+
+    .left-container {
+      display: flex;
+      flex-direction: column;
+      width: 38%;
+      height: calc(100vh - 70px);
+
+      .count {
+        margin: 8px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .cards {
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: thin; /* "auto" or "thin" (not supported in Firefox) */
+        scrollbar-color: #999 transparent; /* Scrollbar color and track color */
+        scroll-behavior: smooth;
+      }
+
+      .card-container {
+        margin-bottom: 15px;
+        cursor: pointer;
+
+        .card-body {
+          padding: 8px;
+
+          .company-name {
+            line-height: normal;
+          }
+
+          .status-date {
+            margin-left: 10px;
+            margin-top: 5px;
+          }
+        }
+
+        strong {
+          font-size: 0.7rem;
+          font-weight: bold;
+        }
+
+        .status-box {
+          display: inline;
+          width: 80px;
+          height: 25px;
+          padding: 2px 4px;
+          color: white;
+          border: none;
+
+          .status-options {
+            width: 150px;
+          }
+        }
+      }
+
+      .active-card {
+        background: rgba(233, 230, 230, 0.671);
+      }
+    }
+
+    .right-container {
+      width: 62%;
+      position: relative;
+      right: -35px;
+      left: 10px;
+    }
+  }
+}
+
+.pagination-container {
+  width: 40%;
+  margin: 20px 0 -20px;
+}
+

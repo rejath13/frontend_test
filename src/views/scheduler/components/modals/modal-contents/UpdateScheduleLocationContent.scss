@@ -1,0 +1,20 @@
+.update-schedule-location {
+  display: flex;
+  gap: 1rem;
+
+  .form-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .google-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.update-schedule-location > * {
+  flex: 1;
+}

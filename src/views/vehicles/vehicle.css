@@ -1,0 +1,217 @@
+.swal2-container{
+    z-index: 2000;
+}
+
+.divLoader{
+    height: 100vh;
+    position: absolute;
+    width: 97%;
+    background: white;
+    z-index: 300;
+    opacity: 0.9;
+}
+
+.divLoader svg{
+    margin: 18% 45%;
+}
+
+.table td, .table th{
+    white-space: normal;
+    padding: 8px 0 8px 8px;
+}
+
+span{
+    word-wrap: normal;
+}
+
+.vehiclecolumn{
+    width: 20%;
+}
+
+.namecolumn
+{
+    width: 20%;
+}
+
+.imeicolumn
+{
+    width: 12%;
+}
+
+.datecolumn{
+    width: 8%;
+}
+
+.lastdatecolumn{
+    width: 9%;
+}
+
+.networkcolumn{
+    width: 3%;
+}
+
+.lastnoteclm{
+    width: 26%;
+}
+
+.buttoncolumn{
+    width: 2%;
+}
+
+
+.remvehcolumn{
+    width: 20%;
+}
+
+.simplecolumn{
+    width: 4%;
+}
+
+.remdatecolumn{
+    width: 12%;
+    padding: 8px !important;
+}
+
+.rdtPicker{
+    position: fixed;
+}
+
+.lstupdatecolumn{
+    width: 10%;
+}
+.vehiclenotecolumn{
+    width: 36%;
+    border-left: none !important;
+}
+.buttonlistclm{
+    width: 10%;
+}
+.ordercolumn{
+    width: 3%;
+}
+.contactcolumn{
+    width: 14%;
+}
+
+.simcolumn{
+    width: 5%;
+}
+
+
+
+
+
+.duemonthcolumn{
+    width: 4%;
+}
+
+.termcolumn{
+    width: 8%;
+}
+
+.statuscolumn{
+    width: 13%;
+}
+
+.monitoringnotecolumn{
+    width: 21%;
+    border-right: none !important;
+}
+
+.monitoringdatecolumn{
+    width: 9%;
+}
+
+.monitoringbuttoncolumn{
+    width: 1%;
+    border-left: none !important;
+}
+
+
+.mon-note-list{
+    height: 35vh;
+}
+
+element {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-warning:focus, .btn-warning.focus{
+    color: #fff;
+}
+
+.joborder{
+padding: 2px 5px;
+background: #b31199;
+color: #fff;
+border-radius: 50%;
+}
+
+.technician{
+background-color: #564aa3;
+color: #fff;
+width: 95%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px; 
+}
+.type{
+  background-color: #564aa3;
+color: #fff;
+width: 40%;
+display: block;
+padding: 4px;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+font-size:12px;  
+}
+.divcomment{
+    border: 1px solid #cfdadd;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.nc {
+  padding: 5px;
+  background: gray;
+  border-radius: 5px;
+  color: #fff;
+  width: 28px;
+  display: inline-block;
+  text-align: center;
+}
+.lsim {
+  padding: 2px;
+background: #04a9f5;
+border-radius: 5px;
+color: #fff;
+width: 28px;
+display: inline-block;
+text-align: center;
+margin-left: 8px;
+}
+
+.accountvehicle{
+   margin-left: 10px; 
+}
+.pointer {cursor: pointer;}
+
+.redtext{
+    color: red;
+    cursor: pointer;
+}
+
+.greentext{
+    color: green;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+#schedule-filter-date-picker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.25rem;
+  // align-items: center;
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  .button-row {
+    display: flex;
+    gap: 5px;
+    // margin-top: 15px;
+    // width: 100%;
+    // margin-top: 5px;
+    button {
+      padding: 0;
+      padding: 3px 6px;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.expected-completion-modal {
+  max-width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 3rem 0;
+
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .form-group {
+    .form-label {
+      margin-right: 10px;
+    }
+  }
+}
+
+.spinner {
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,27 @@
+.vehicle-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .vehicle-data{
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+}
+
+.marker-label {
+    background-color: white;
+    color: rgb(84, 82, 82);
+    border: 1px solid rgb(84, 82, 82);
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+  }

@@ -1,0 +1,8 @@
+.schedule-status-row {
+  .schedule-status:hover,
+  .schedule-trained-status:hover,
+  .schedule-payment-status:hover {
+    cursor: pointer;
+    outline: 1px dashed gray;
+  }
+}

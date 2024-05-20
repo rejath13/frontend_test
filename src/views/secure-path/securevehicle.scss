@@ -1,0 +1,141 @@
+.global-filter-card{
+    border-bottom: 10px solid #edeff2;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px 10px 25px;
+  }
+  
+  .date-range-picker{
+    background: #616C6F;
+    color: white;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 0%;
+    height: 3rem;
+    width: 23.9rem;
+    
+  }
+  
+  .date-range-picker .dates{
+    width: 36%;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .date-range-picker .date-icon{
+      min-width: 60px;
+      background: #333945;
+      padding: 8px;
+      position: relative;
+      right: -14px;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+  .date-range-picker .date-separator-to{
+    width: 38px;
+    background: #616C6F;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .date-range-picker .form-control{
+      background: #616C6F !important; 
+      outline: none !important;
+      border: none !important;
+      color: #FFF !important;
+  }
+  .date-range-picker .clear{
+    background: red;
+    padding: 3px;
+    cursor: pointer;
+  }
+
+  .form-control:focus,
+  .datepicker:focus,
+  .datepicker:active 
+  .datepicker:visited 
+  {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+
+  .form-control.datepicker:focus,
+  .form-control.datepicker:visited
+  {
+    background-color: transparent !important;
+    box-shadow: none;
+    border-color: #ced4da;
+  }
+
+.container-v{
+  padding: 0%; 
+  width: 100% !important;
+  background-color:transparent;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: -4rem;
+  height: 8rem;
+  min-width: 118em !important;
+  font-size: 0.8em !important;
+  // background-color: #333945;
+}
+.btn-add{
+  padding: 13px 20px;
+}
+
+// input[type='date']::-webkit-datetime-edit-day-field:focus,
+// input[type='date']::-webkit-datetime-edit-month-field:focus,
+// input[type='date']::-webkit-datetime-edit-year-field:focus {
+//     background-color:transparent !important;
+//     // color: rgb(107, 107, 107) !important;
+//     // outline: none;
+// }
+
+
+.custom-date input[type='date']::-webkit-datetime-edit-day-field:focus,
+.custom-date input[type='date']::-webkit-datetime-edit-month-field:focus,
+.custom-date input[type='date']::-webkit-datetime-edit-year-field:focus {
+  background-color:transparent !important;
+    color: rgb(99, 25, 25) !important;
+    outline: none;
+}
+
+.header-side{
+  display: flex;
+}
+.v-table-container{
+  padding: 1rem;
+}
+
+.v-select-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.css-yk16xz-control{
+  height: 3rem;
+}
+
+//new css changes..........................................
+
+.main-layout{
+width: 100%;
+height: 100vh;
+// padding: 4px;
+// background-color: red;
+}
+
+.vehicle-heading{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-row{
+  display: flex;
+  flex-direction: column;
+}

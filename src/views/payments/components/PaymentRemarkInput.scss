@@ -1,0 +1,56 @@
+.remark-input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .remark-input-group{
+        position: relative;
+        width: 100%;
+
+        .remark-input{
+            padding-right: 60px;
+        }
+
+        .add-btn{
+            position: absolute;
+            right: 0.3rem;
+            top: 3.3rem;
+            border-radius: 50%;
+            font-size: 18px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    }
+
+    .previous-remarks{
+        margin-left: 5px;
+
+        .remark-items{
+            padding: 2px 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-color: #fafafae8;
+            transition: all 0.3s ease;
+            .previous-remark-input{
+                width: 100%;
+                margin-top: 7px;
+                background-color: inherit;
+                border: none;
+                padding: 5px;
+                font-size: 14px;
+                color: #333;
+            }
+
+            .remark-date{
+                font-size: 11px;
+                color: #777;
+                margin-right: 10px;
+            }
+        }
+
+        .remark-action{
+            cursor: pointer;
+        }
+
+    }
+}

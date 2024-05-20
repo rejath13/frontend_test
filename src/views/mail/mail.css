@@ -1,0 +1,14 @@
+.mail-modal .modal-dialog {
+    max-width: 1000px !important;
+}
+
+
+.custom-file-label {
+    height: 40px !important;
+    padding-top: 10px;
+}
+
+.ck-editor__editable_inline {
+    min-height: 350px !important;
+    color: black !important;
+}
