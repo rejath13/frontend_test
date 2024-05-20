@@ -8,7 +8,7 @@ COPY --chown=node:node . .
 
 USER node 
 
-RUN npm install
+RUN npm install --force
 
 RUN npm run build
 
