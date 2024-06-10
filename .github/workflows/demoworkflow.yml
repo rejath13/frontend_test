@@ -15,7 +15,7 @@ on:
 jobs:
  
   build:
-    runs-on: [prodrunner,self-hosted,Linux,X64]
+    runs-on: [prodrunner,self-hosted,linux,x64]
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
