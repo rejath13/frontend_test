@@ -1,0 +1,7 @@
+:80 {
+  root * /home/build
+  file_server
+  encode gzip
+  try_files {path} /index.html
+}
+
