@@ -15,7 +15,7 @@ on:
 jobs:
  
   build:
-    runs-on: demorunner
+    runs-on: prodrunner
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
       run: docker build -t react_github:v1 .
       
   run:
-    runs-on: demorunner
+    runs-on: prodrunner
     needs: build
     steps:
       - name: Check if container is running
